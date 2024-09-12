@@ -1,0 +1,64 @@
+{
+  "monsters": [
+    {
+      "id": "1",
+      "name": "Mochi",
+      "type": {
+        "id": 1,
+        "name": "normal"
+      },
+      "isFavorite": true
+    },
+    {
+      "id": "1",
+      "name": "Zuma",
+      "type": {
+        "id": 2,
+        "name": "electric"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "7ea3",
+      "name": "Zaku",
+      "type": {
+        "id": "6",
+        "name": "dark"
+      }
+    },
+    {
+      "id": "bc65",
+      "name": "Drope",
+      "type": {
+        "id": "3",
+        "name": "dragon"
+      }
+    }
+  ],
+  "types": [
+    {
+      "id": "1",
+      "name": "normal"
+    },
+    {
+      "id": "2",
+      "name": "electric"
+    },
+    {
+      "id": "3",
+      "name": "dragon"
+    },
+    {
+      "id": "4",
+      "name": "rock"
+    },
+    {
+      "id": "5",
+      "name": "fairy"
+    },
+    {
+      "id": "6",
+      "name": "dark"
+    }
+  ]
+}
