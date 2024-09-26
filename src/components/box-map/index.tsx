@@ -1,8 +1,8 @@
 'use client'
-import { useState } from "react"
+import { memo } from "react";
 import { BoxProps } from "./types"
 
-const BoxMap = ({boxKey, handleBoxClick, backgroundColor}: BoxProps) => {
+const BoxMap = memo(({boxKey, handleBoxClick, backgroundColor}: BoxProps) => {
 
     const onClickBox = () => {
         handleBoxClick();
@@ -18,6 +18,6 @@ const BoxMap = ({boxKey, handleBoxClick, backgroundColor}: BoxProps) => {
             onClick={onClickBox}
         />
     )
-}
+})
 
 export default BoxMap
