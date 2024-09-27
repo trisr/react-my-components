@@ -4,7 +4,7 @@ import { createRef } from 'react';
 import useMonster from "@/hooks/useMonsters";
 import useTypes from "@/hooks/useTypes";
 
-const FormPage = () => {
+const FormPage: React.FC = () => {
     const { monsterList, loading, addMonster, deleteMonster } = useMonster();
     const { typeList, loading: typeLoading } = useTypes();
 

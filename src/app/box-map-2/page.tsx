@@ -1,6 +1,6 @@
 'use client'
 import BoxMap from "@/components/box-map"
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import { BoxColorProps } from "./types";
 
 // TODO
@@ -9,7 +9,7 @@ import { BoxColorProps } from "./types";
 // 3. add a button to reset the list of colors to its initial state
 // 4. render a history of user actions (clicks)
 
-const initialValue = [
+const initialValue: BoxColorProps[] = [
     {
         id: 1,
         value: 'red'
@@ -24,7 +24,7 @@ const initialValue = [
     },
 ];
 
-const BoxMap2Page = () => {
+const BoxMap2Page: React.FC = () => {
     const [boxColorList, setBoxColorList] = useState<BoxColorProps[]>(initialValue);
     const [history, setHistory] = useState<string[]>([]);
 

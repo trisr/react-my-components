@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const boxNumber = 6;
 
-const BoxMapPage = () => {
+const BoxMapPage: React.FC = () => {
     const [boxClicked, setBoxClicked] = useState<number[]>([]);
     const arrBox: undefined[] = [...Array(boxNumber)];
 
